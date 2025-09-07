@@ -1,10 +1,9 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "main": "server.js",
-  "type": "module",
+  "main": "index.js",
+   "type": "module",
   "scripts": {
-    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -27,4 +26,6 @@
     "rimraf": "^4.4.1",
     "serverless-http": "^3.2.0",
     "twilio": "^5.8.0",
-    "whatsapp-web.js": "
+    "whatsapp-web.js": "^1.32.0"
+  }
+}
