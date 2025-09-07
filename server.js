@@ -55,7 +55,9 @@ requiredDirs.forEach(dir => {
     console.log(`✅ Created directory: ${dir}`);
   }
 });
-
+app.get('/', (req, res) => {
+  res.send('Gym Management System API is running');
+});
 // ------------------ Routes Registration ------------------
 console.log('🛣️ Registering routes...');
 
@@ -171,3 +173,4 @@ const startServer = async () => {
 startServer();
 
 export default app;
+
